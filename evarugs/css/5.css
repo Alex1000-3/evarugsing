@@ -1,0 +1,76 @@
+.block4 {
+   max-height: 395px;
+}
+.block4__box {
+   position: relative;
+}
+.box__background {
+width: 100%;
+padding: 20px 120px;
+height: 264px;
+position: absolute;
+z-index: 0;
+display: flex;
+justify-content: space-between;
+}
+.background__mini {
+   display: block;
+   margin: auto 0 ;
+   width: 110px;
+      height: 125px;
+}
+.box__background img{
+   max-width: 100%;
+}
+.block4__titel {
+   padding: 90px 70px 110px;
+position: relative;
+z-index: 6;
+}
+.titelmeni__footer {
+   display: block;
+   min-height: 152px;
+   max-height: 317px;
+   display: flex;
+   justify-content: space-between ;
+   align-items: center;
+}
+.titelmeni__footer h3{
+font-size: 14px;
+font-weight: 700;
+line-height: 16.41px;
+text-align: left;
+padding-bottom: 10px ;
+}
+.titelmeni__footer p{
+font-size: 14px;
+font-weight: 300;
+line-height: 16px;
+text-align: left;
+   margin-bottom: 10px;
+}
+.titelmeni__footer a{
+   font-size: 14px;
+   font-weight: 300;
+   line-height: 16px;
+   text-align: left;
+   color: #000;
+}
+.footers {
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   justify-content: space-between;
+width: 200px;
+}
+.footer__aboutus {
+   margin: 20px 0 0 60px;
+   width: 224px;
+}
+.footer__flexwarp {
+   /* max-width: 224px; */
+   width: 100%;
+   max-width: 809px;
+   display: flex;
+   justify-content: space-between;
+}

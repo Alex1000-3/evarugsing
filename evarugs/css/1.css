@@ -1,0 +1,56 @@
+.headers {
+height: 77px;
+background: linear-gradient(269.91deg, rgba(46, 49, 146, 0.7) 0%, rgba(212, 20, 90, 0.7) 98.16%);
+}
+.header__nav {
+   display: flex;
+   justify-content: space-between;
+align-items: center;
+   color: #ffffff;
+   height: 77px;
+font-size: 15px;
+font-weight: 500;
+line-height: 9.5px;
+text-align: left;
+}
+.nav__list {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 391px;
+   position: relative;
+}
+.city {
+   position: relative;
+}
+
+.frame1 {
+   position: relative;
+   right: 10px;
+}
+.group {
+   position: relative;
+   right: 10px;
+}
+.city{
+   display: flex;
+   align-items: center;
+}
+.coordinates {
+   color: #ffffff;
+}
+.socialnetwork{
+   position: relative;
+   display: flex;
+   align-items: center;
+
+}
+.socialnetwork a{
+   display: flex;
+      line-height: 14.58px;
+}
+.instogam {
+   color: #ffffff;
+   width: 128px;
+   display: block;
+}
